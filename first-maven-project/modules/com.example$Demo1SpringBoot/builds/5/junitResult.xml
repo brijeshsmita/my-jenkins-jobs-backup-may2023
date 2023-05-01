@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1189.v1b_e593637fa_e">
+  <suites>
+    <suite>
+      <file>C:\Users\smitkuma\.jenkins\workspace\first-maven-project\target\surefire-reports\TEST-com.example.demo.Demo1SpringBootApplicationTests.xml</file>
+      <name>com.example.demo.Demo1SpringBootApplicationTests</name>
+      <duration>6.243</duration>
+      <time>6.243</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>1.067</duration>
+          <className>com.example.demo.Demo1SpringBootApplicationTests</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>6.243</duration>
+  <skipOldReports>true</skipOldReports>
+  <keepLongStdio>false</keepLongStdio>
+</result>

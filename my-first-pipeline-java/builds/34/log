@@ -1,0 +1,17 @@
+Started by user [8mha:////4DSHz5odlkv+AW6ysSMk451hKuaDxUJevFYKaxAilkPfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL94tzMkkQAMT/n7cAAAAA=[0mSmita B Kumar
+Obtained Jenkinsfile from git https://github.com/brijeshsmita/jenkins-maven-pipeline-sample.git
+java.lang.ClassNotFoundException: org.kohsuke.groovy.sandbox.GroovyInterceptor$1
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at jenkins.util.URLClassLoader2.findClass(URLClassLoader2.java:35)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+Caused: java.lang.NoClassDefFoundError: org/kohsuke/groovy/sandbox/GroovyInterceptor$1
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.enter(GroovySandbox.java:129)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:187)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:175)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:569)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:519)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:336)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

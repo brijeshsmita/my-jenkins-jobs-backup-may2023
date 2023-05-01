@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1289.vd1c337fd5354">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>smita</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>112</queueId>
+  <timestamp>1682630851467</timestamp>
+  <startTime>1682630851513</startTime>
+  <result>FAILURE</result>
+  <duration>29</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.scm.NullSCM"/>
+      <node></node>
+      <workspace>C:\Users\smitkuma\.jenkins\workspace\my-first-pipeline-java@script\2f725aa9a00464a46be72803fa8869ed108ccac56f6dedca4cdc7285f61aa19f</workspace>
+      <changelogFile>C:\Users\smitkuma\.jenkins\jobs\my-first-pipeline-java\builds\26\changelog14726474971208123395.xml</changelogFile>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

@@ -1,0 +1,10 @@
+commit 0a2fe96b4b135ef7a5364893bb72e2b19b111b30
+tree 94ac2bf40c8b4e59f0e2e6c3bf545d96ce073307
+parent e7e492483c2ce1f286c611641f6959462077eff2
+author Kumar <smita.a.kumar@capgemini.com> 2023-04-28 03:13:36 +0530
+committer Kumar <smita.a.kumar@capgemini.com> 2023-04-28 03:13:36 +0530
+
+    deployment cmd changed
+
+
+:100644 100644 f2df29e4085fe6cd1cc087968aebcc16d6c694ee bcc671a9734fb38e663a9aad24e91afd7924b46c M	Jenkinsfile

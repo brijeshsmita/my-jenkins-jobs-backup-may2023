@@ -1,0 +1,58 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@3653.v07ea_433c90b_4">
+    <parentIds>
+      <string>29</string>
+    </parentIds>
+    <id>30</id>
+    <startId>3</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1208.v0cc7c6e0da_9e">
+      <startTime>1682682841809</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1208.v0cc7c6e0da_9e">
+      <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@639.v6eca_cd8c04a_a_">
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.workflow.steps.BodyExecution.cancel(BodyExecution.java:59)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$PlaceholderExecutable$1.lambda$interrupt$1(ExecutorStepExecution.java:986)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$1.onSuccess(ExecutorStepExecution.java:376)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$1.onSuccess(ExecutorStepExecution.java:372)</trace>
+          <trace>com.google.common.util.concurrent.Futures$CallbackListener.run(Futures.java:1138)</trace>
+          <trace>com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:31)</trace>
+          <trace>com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1270)</trace>
+          <trace>com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:761)</trace>
+          <trace>com.google.common.util.concurrent.AbstractFuture$TrustedFuture.addListener(AbstractFuture.java:136)</trace>
+          <trace>com.google.common.util.concurrent.Futures.addCallback(Futures.java:1105)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask.withExecution(ExecutorStepExecution.java:372)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$PlaceholderExecutable$1.lambda$interrupt$2(ExecutorStepExecution.java:983)</trace>
+          <trace>jenkins.security.ImpersonatingScheduledExecutorService$1.run(ImpersonatingScheduledExecutorService.java:67)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:833)</trace>
+        </stackTrace>
+        <suppressedExceptions class="empty-list"/>
+        <result>
+          <name>ABORTED</name>
+          <ordinal>4</ordinal>
+          <color>ABORTED</color>
+          <completeBuild>false</completeBuild>
+        </result>
+        <causes class="java.util.Arrays$ArrayList">
+          <a class="jenkins.model.CauseOfInterruption-array">
+            <jenkins.model.CauseOfInterruption_-UserInterruption>
+              <user>smita</user>
+            </jenkins.model.CauseOfInterruption_-UserInterruption>
+          </a>
+        </causes>
+        <actualInterruption>true</actualInterruption>
+      </error>
+    </wf.a.ErrorAction>
+    <wf.a.ErrorAction plugin="workflow-api@1208.v0cc7c6e0da_9e">
+      <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" reference="../../wf.a.ErrorAction/error"/>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

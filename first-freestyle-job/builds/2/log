@@ -1,0 +1,19 @@
+Started by user [8mha:////4DSHz5odlkv+AW6ysSMk451hKuaDxUJevFYKaxAilkPfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL94tzMkkQAMT/n7cAAAAA=[0mSmita B Kumar
+Running as SYSTEM
+Building in workspace C:\Users\smitkuma\.jenkins\workspace\first-freestyle-job
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\Users\smitkuma\.jenkins\workspace\first-freestyle-job\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/brijeshsmita/jenkins-maven-pipeline-sample.git # timeout=10
+Fetching upstream changes from https://github.com/brijeshsmita/jenkins-maven-pipeline-sample.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.40.0.windows.1'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/brijeshsmita/jenkins-maven-pipeline-sample.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 0a2fe96b4b135ef7a5364893bb72e2b19b111b30 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 0a2fe96b4b135ef7a5364893bb72e2b19b111b30 # timeout=10
+Commit message: "deployment cmd changed"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 0a2fe96b4b135ef7a5364893bb72e2b19b111b30 # timeout=10
+Finished: SUCCESS
