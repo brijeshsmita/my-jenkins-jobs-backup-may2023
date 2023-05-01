@@ -1,0 +1,20 @@
+Started by user [8mha:////4DSHz5odlkv+AW6ysSMk451hKuaDxUJevFYKaxAilkPfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL94tzMkkQAMT/n7cAAAAA=[0mSmita B Kumar
+Running as SYSTEM
+Building on the built-in node in workspace C:\Users\smitkuma\.jenkins\workspace\new-job
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\Users\smitkuma\.jenkins\workspace\new-job\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/brijeshsmita/jenkins-maven-pipeline-sample.git # timeout=10
+Fetching upstream changes from https://github.com/brijeshsmita/jenkins-maven-pipeline-sample.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.40.0.windows.1'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/brijeshsmita/jenkins-maven-pipeline-sample.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 6a86270b5270f96ec6180db5d5bd47b27099de2b (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 6a86270b5270f96ec6180db5d5bd47b27099de2b # timeout=10
+Commit message: "Create hello"
+First time build. Skipping changelog.
+Finished: SUCCESS
