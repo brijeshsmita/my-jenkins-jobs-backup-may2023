@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@3653.v07ea_433c90b_4">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3653.v07ea_433c90b_4">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/master</string>
+            <string>GIT_CHECKOUT_DIR=</string>
+            <string>GIT_COMMIT=381bef8782c02d066c17ebbe21c2053b6f4b11c8</string>
+            <string>GIT_PREVIOUS_COMMIT=a84bbec08db8a4725c33333119c8934d7d2c6b32</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=c97b352dc4b793e24fa28e9257e81e0fca1b705d</string>
+            <string>GIT_URL=https://github.com/brijeshsmita/my-jenkins-jobs-backup-may2023.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1208.v0cc7c6e0da_9e">
+      <startTime>1682967969613</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>
